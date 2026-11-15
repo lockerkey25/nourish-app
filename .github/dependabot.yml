@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    # Expo SDK packages must move together; upgrade them with `npx expo install --fix`.
+    ignore:
+      - dependency-name: "expo*"
+      - dependency-name: "react"
+      - dependency-name: "react-dom"
+      - dependency-name: "react-native*"
+      - dependency-name: "@expo/*"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

@@ -142,7 +142,7 @@ export function MealsScreen({ resident, onSelect, onBack, onViewCharts, onEditMe
         </View>
 
         {/* Weight logging */}
-        <Text style={styles.sectionHeader}>Today's weight</Text>
+        <Text style={styles.sectionHeader}>Today&apos;s weight</Text>
         <View style={styles.weightRow}>
           <TextInput
             style={styles.weightInput}

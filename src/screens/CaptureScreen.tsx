@@ -224,7 +224,7 @@ export function CaptureScreen({ resident, meal, onAnalyzed, onManual, onBack }: 
           {prefConflicts.length > 0 && (
             <View style={styles.section}>
               <Text style={styles.sectionTitle}>⚠️ Dietary preferences</Text>
-              <Text style={styles.ackHint}>The following items on the tray are listed in this resident's dietary preferences. Please check each box to confirm you are aware.</Text>
+              <Text style={styles.ackHint}>The following items on the tray are listed in this resident&apos;s dietary preferences. Please check each box to confirm you are aware.</Text>
               {prefConflicts.map((msg, i) => (
                 <CheckRow
                   key={i}

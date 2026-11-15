@@ -94,7 +94,7 @@ export function NutrientCharts({ residentId, onBack }: Props) {
   if (error) return (
     <View style={styles.flex}>
       <Text style={styles.back} onPress={onBack}>‹ Back</Text>
-      <Text style={styles.error}>Couldn't load intake history: {error}</Text>
+      <Text style={styles.error}>Couldn&apos;t load intake history: {error}</Text>
     </View>
   );
 
